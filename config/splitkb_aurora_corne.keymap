@@ -35,10 +35,10 @@
             //                    | GUI |     | SPC |   | ENT |     | ALT |
 
             bindings = <
-&trans        &trans        &trans     &trans          &trans  &trans      &trans     &kp PAGE_UP  &trans    &trans     &trans  &kp BSPC
-&trans  &kp LEFT_GUI  &kp LEFT_ALT  &kp LCTRL  &kp LEFT_SHIFT  &trans    &kp HOME  &kp LEFT_ARROW  &kp UP  &kp DOWN  &kp RIGHT   &kp END
-&trans        &trans        &trans     &trans          &trans  &trans      &trans   &kp PAGE_DOWN  &trans    &trans     &trans    &trans
-                                       &trans          &trans  &trans      &trans          &trans  &trans
+&trans        &trans        &trans     &trans          &trans  &kp F12      &trans     &kp PAGE_UP  &trans    &trans     &trans  &kp BSPC
+&trans  &kp LEFT_GUI  &kp LEFT_ALT  &kp LCTRL  &kp LEFT_SHIFT   &trans    &kp HOME  &kp LEFT_ARROW  &kp UP  &kp DOWN  &kp RIGHT   &kp END
+&trans        &trans        &trans     &trans          &trans   &trans      &trans   &kp PAGE_DOWN  &trans    &trans     &trans    &trans
+                                       &trans          &trans   &trans      &trans          &trans  &trans
             >;
         };
 
@@ -53,7 +53,7 @@
 &trans       &kp EXCL  &kp AT           &kp HASH          &kp DLLR             &kp PRCNT                &kp CARET           &kp AMPS    &kp BACKSLASH             &none  &kp TILDE  &kp BSPC
 &trans  &kp SEMICOLON   &none     &kp LEFT_BRACE  &kp LEFT_BRACKET  &kp LEFT_PARENTHESIS    &kp RIGHT_PARENTHESIS  &kp RIGHT_BRACKET  &kp RIGHT_BRACE         &kp EQUAL      &none    &trans
 &trans          &none   &none  &kp DOUBLE_QUOTES         &kp COLON             &kp MINUS                 &kp PLUS       &kp ASTERISK    &kp LESS_THAN  &kp GREATER_THAN  &kp SLASH    &trans
-                                          &trans            &trans                &trans                   &trans             &trans           &trans
+                                          &trans            &trans        &kp UNDERSCORE                   &trans             &trans           &trans
             >;
         };
 
