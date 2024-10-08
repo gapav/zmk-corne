@@ -9,6 +9,20 @@
 #include <dt-bindings/zmk/keys.h>
 
 / {
+    combos {
+        compatible = "zmk,combos";
+
+        qw_esc {
+            bindings = <&kp ESCAPE>;
+            key-positions = <0 1>;
+        };
+
+        combo_mo5 {
+            bindings = <&mo 5>;
+            key-positions = <36 41>;
+        };
+    };
+
     keymap {
         compatible = "zmk,keymap";
 
@@ -71,7 +85,7 @@
 &none       &trans     &trans     &kp LC(F)  &kp LC(P)  &trans       &kp MINUS  &kp NUMBER_7  &kp NUMBER_8  &kp NUMBER_9  &trans     &trans
 &none       &kp LC(A)  &kp LC(R)  &kp LC(S)  &kp LC(T)  &none        &kp PLUS   &kp NUMBER_4  &kp NUMBER_5  &kp NUMBER_6  &kp EQUAL  &trans
 &bt BT_CLR  &kp LC(Z)  &kp LC(X)  &kp LC(C)  &kp LC(D)  &kp LC(V)    &kp DOT    &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp SLASH  &trans
-                                  &trans     &trans     &trans       &trans     &trans        &kp NUMBER_0
+                                  &trans     &trans     &trans       &mo 5      &trans        &kp NUMBER_0
             >;
         };
 
