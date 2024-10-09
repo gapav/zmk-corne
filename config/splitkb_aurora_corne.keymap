@@ -17,9 +17,9 @@
             key-positions = <0 1>;
         };
 
-        combo_mo5 {
-            bindings = <&mo 5>;
-            key-positions = <36 41>;
+        combo_tab {
+            bindings = <&none>;
+            key-positions = <37 40>;
         };
     };
 
@@ -62,10 +62,10 @@
             //                    | GUI | LWR | SPC |   | ENT | RSE  | ALT |
 
             bindings = <
-&none  &kp Q            &kp W            &kp F           &kp P          &kp B    &kp J      &kp L               &kp U         &kp Y             &kp BACKSPACE     &none
-&none  &hml LEFT_GUI A  &hml LEFT_ALT R  &hml LCTRL S    &hml LSHIFT T  &kp G    &kp M      &hmr RIGHT_SHIFT N  &hmr RCTRL E  &hmr RIGHT_ALT I  &hmr RIGHT_GUI O  &none
-&none  &kp Z            &kp X            &kp C           &kp D          &kp V    &kp K      &kp H               &kp COMMA     &kp DOT           &kp FSLH          &none
-                                         &kp LEFT_SHIFT  &mo 1          &mo 4    &kp ENTER  &lt 2 SPACE         &lt 3 TAB
+&none  &kp Q            &kp W            &kp F         &kp P          &kp B    &kp J      &kp L               &kp U         &kp Y             &kp BACKSPACE     &none
+&none  &hml LEFT_GUI A  &hml LEFT_ALT R  &hml LCTRL S  &hml LSHIFT T  &kp G    &kp M      &hmr RIGHT_SHIFT N  &hmr RCTRL E  &hmr RIGHT_ALT I  &hmr RIGHT_GUI O  &none
+&none  &kp Z            &kp X            &kp C         &kp D          &kp V    &kp K      &kp H               &kp COMMA     &kp DOT           &kp FSLH          &none
+                                         &none         &mo 1          &mo 4    &kp ENTER  &lt 2 SPACE         &none
             >;
         };
 
@@ -119,10 +119,10 @@
 
         layer_5 {
             bindings = <
-&trans  &trans  &trans  &trans  &trans  &bt BT_CLR_ALL    &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &sys_reset        &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans            &trans  &trans  &trans  &trans  &trans  &trans
-                        &trans  &trans  &trans            &trans  &trans  &trans
+&none  &none  &none  &none  &none  &bt BT_CLR_ALL    &none  &none  &none  &none  &none  &none
+&none  &none  &none  &none  &none  &sys_reset        &none  &none  &none  &none  &none  &none
+&none  &none  &none  &none  &none  &none             &none  &none  &none  &none  &none  &none
+                     &none  &none  &none             &none  &none  &none
             >;
         };
     };
