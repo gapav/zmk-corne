@@ -63,7 +63,7 @@
 
             bindings = <
 &none  &kp Q            &kp W            &kp F           &kp P          &kp B    &kp J      &kp L               &kp U         &kp Y             &kp BACKSPACE     &none
-&none  &hml LEFT_GUI A  &hml LEFT_ALT R  &hml LCTRL S    &hml LSHIFT T  &kp G    &kp M      &hmr RIGHT_SHIFT N  &hmr RCTRL E  &hmr RIGHT_ALT I  &hmr RIGHT_GUI O  &none
+&none  &hmr LEFT_GUI A  &hmr LEFT_ALT R  &hmr LCTRL S    &hmr LSHIFT T  &kp G    &kp M      &hml RIGHT_SHIFT N  &hml RCTRL E  &hml RIGHT_ALT I  &hml RIGHT_GUI O  &none
 &none  &kp Z            &kp X            &kp C           &kp D          &kp V    &kp K      &kp H               &kp COMMA     &kp DOT           &kp FSLH          &none
                                          &kp LEFT_SHIFT  &mo 1          &mo 4    &kp ENTER  &lt 2 SPACE         &lt 3 TAB
             >;
