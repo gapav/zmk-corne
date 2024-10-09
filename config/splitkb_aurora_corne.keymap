@@ -16,12 +16,15 @@
             bindings = <&kp ESCAPE>;
             key-positions = <12 13>;
             layers = <0>;
-            require-prior-idle-ms = <200>;
+            require-prior-idle-ms = <150>;
+            slow-release;
         };
 
         combo_tab {
             bindings = <&none>;
             key-positions = <37 40>;
+            slow-release;
+            layers = <0>;
         };
     };
 
