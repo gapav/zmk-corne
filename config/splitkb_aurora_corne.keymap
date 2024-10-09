@@ -14,7 +14,9 @@
 
         qw_esc {
             bindings = <&kp ESCAPE>;
-            key-positions = <0 1>;
+            key-positions = <12 13>;
+            layers = <0>;
+            require-prior-idle-ms = <200>;
         };
 
         combo_tab {
