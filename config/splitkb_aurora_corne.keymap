@@ -124,6 +124,13 @@
             #binding-cells = <0>;
             bindings = <&kp Q>, <&kp ESC>;
         };
+
+        new_behavior: new_behavior {
+            compatible = "zmk,behavior-tap-dance";
+            label = "NEW_BEHAVIOR";
+            #binding-cells = <0>;
+            bindings = <&bt BT_NXT>, <&bt BT_CLR_ALL>;
+        };
     };
 
     keymap {
@@ -176,10 +183,10 @@
 
         num+ctrl {
             bindings = <
-&bt BT_NXT      &none      &none      &kp LC(F)  &kp LC(P)  &none        &none    &kp NUMBER_7  &kp NUMBER_8  &kp NUMBER_9  &kp LC(BACKSPACE)  &none
-&sys_reset      &kp LC(A)  &kp LC(R)  &kp LC(S)  &kp LC(T)  &none        &none    &kp NUMBER_4  &kp NUMBER_5  &kp NUMBER_6  &none              &none
-&bt BT_CLR_ALL  &kp LC(Z)  &kp LC(X)  &kp LC(C)  &kp LC(D)  &kp LC(V)    &kp DOT  &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp LC(PERIOD)     &none
-                                      &none      &none      &none        &mo 4    &kp NUMBER_0  &none
+&none  &none      &none      &kp LC(F)  &kp LC(P)      &none        &none    &kp NUMBER_7  &kp NUMBER_8  &kp NUMBER_9  &kp LC(BACKSPACE)  &none
+&none  &kp LC(A)  &kp LC(R)  &kp LC(S)  &kp LC(T)      &none        &none    &kp NUMBER_4  &kp NUMBER_5  &kp NUMBER_6  &none              &none
+&none  &kp LC(Z)  &kp LC(X)  &kp LC(C)  &kp LC(D)      &kp LC(V)    &kp DOT  &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp LC(PERIOD)     &none
+                             &none      &new_behavior  &none        &mo 4    &kp NUMBER_0  &none
             >;
         };
 
