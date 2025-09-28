@@ -184,7 +184,7 @@
         num+ctrl {
             bindings = <
 &none  &none      &none      &kp LC(F)  &kp LC(P)      &none        &none    &kp NUMBER_7  &kp NUMBER_8  &kp NUMBER_9  &kp LC(BACKSPACE)  &none
-&none  &kp LC(A)  &kp LC(R)  &kp LC(S)  &kp LC(T)      &none        &none    &kp NUMBER_4  &kp NUMBER_5  &kp NUMBER_6  &none              &none
+&none  &kp LC(A)  &kp LC(R)  &kp LC(S)  &kp LC(T)      &none        &none    &kp NUMBER_4  &kp NUMBER_5  &kp NUMBER_6  &trans             &none
 &none  &kp LC(Z)  &kp LC(X)  &kp LC(C)  &kp LC(D)      &kp LC(V)    &kp DOT  &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp LC(PERIOD)     &none
                              &none      &new_behavior  &none        &mo 4    &kp NUMBER_0  &none
             >;
