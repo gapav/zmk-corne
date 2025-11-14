@@ -217,10 +217,10 @@
             //                    | GUI | LWR | SPC |   | ENT | RSE  | ALT |
 
             bindings = <
-&none  &q_esc           &kp W            &kp F         &kp P             &kp B                               &kp J      &kp L               &kp U         &kp Y             &kp BACKSPACE     &none
-&none  &hml LEFT_GUI A  &hml LEFT_ALT R  &hml LCTRL S  &hml LSHIFT T     &kp G                               &kp M      &hmr RIGHT_SHIFT N  &hmr RCTRL E  &hmr RIGHT_ALT I  &hmr RIGHT_GUI O  &none
-&none  &kp Z            &kp X            &kp C         &kp D             &kp V                               &kp K      &kp H               &kp COMMA     &kp DOT           &kp FSLH          &none
-                                         &none         &tab_layer 1 TAB  &sticky_shift_layer 3 LEFT_SHIFT    &kp ENTER  &lt 2 SPACE         &none
+&none  &q_esc           &kp W            &kp F         &kp P          &kp B                               &kp J      &kp L               &kp U         &kp Y             &kp BACKSPACE     &none
+&none  &hml LEFT_GUI A  &hml LEFT_ALT R  &hml LCTRL S  &hml LSHIFT T  &kp G                               &kp M      &hmr RIGHT_SHIFT N  &hmr RCTRL E  &hmr RIGHT_ALT I  &hmr RIGHT_GUI O  &none
+&none  &kp Z            &kp X            &kp C         &kp D          &kp V                               &kp K      &kp H               &kp COMMA     &kp DOT           &kp FSLH          &none
+                                         &none         &lt 1 TAB      &sticky_shift_layer 3 LEFT_SHIFT    &kp ENTER  &lt 2 SPACE         &none
             >;
         };
 
