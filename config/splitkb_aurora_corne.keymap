@@ -189,10 +189,10 @@
             //                    | GUI | LWR | SPC |   | ENT | RSE  | ALT |
 
             bindings = <
-&q_esc           &kp W            &kp F         &kp P          &kp B                               &kp J      &kp L               &kp U         &kp Y             &kp BACKSPACE
-&hml LEFT_GUI A  &hml LEFT_ALT R  &hml LCTRL S  &hml LSHIFT T  &kp G                               &kp M      &hmr RIGHT_SHIFT N  &hmr RCTRL E  &hmr RIGHT_ALT I  &hmr RIGHT_GUI O
-&kp Z            &kp X            &kp C         &kp D          &kp V                               &kp K      &kp H               &kp COMMA     &kp DOT           &kp FSLH
-                                                &lt 1 TAB      &sticky_shift_layer 3 LEFT_SHIFT    &kp ENTER  &lt 2 SPACE
+&none &q_esc           &kp W            &kp F         &kp P          &kp B                               &kp J      &kp L               &kp U         &kp Y             &kp BACKSPACE &none
+&none &hml LEFT_GUI A  &hml LEFT_ALT R  &hml LCTRL S  &hml LSHIFT T  &kp G                               &kp M      &hmr RIGHT_SHIFT N  &hmr RCTRL E  &hmr RIGHT_ALT I  &hmr RIGHT_GUI O &none
+&none &kp Z            &kp X            &kp C         &kp D          &kp V                               &kp K      &kp H               &kp COMMA     &kp DOT           &kp FSLH &none
+                                                &none &lt 1 TAB      &sticky_shift_layer 3 LEFT_SHIFT    &kp ENTER  &lt 2 SPACE &none 
             >;
         };
 
@@ -204,10 +204,10 @@
             //                    | GUI |     | SPC |   | ENT |     | ALT |
 
             bindings = <
-&caps_word    &kp LEFT_BRACKET  &kp SEMI   &kp PRINTSCREEN  &kp F12    &kp LG(COMMA)  &kp PAGE_UP     &kp UP_ARROW  &kp LG(PERIOD)  &trans
-&kp LEFT_GUI  &kp LEFT_ALT      &kp LCTRL  &kp LEFT_SHIFT   &kp ESC    &kp HOME       &kp LEFT_ARROW  &kp DOWN      &kp RIGHT       &kp END
-&trans        &trans            &trans     &trans           &trans     &trans         &kp PAGE_DOWN   &trans        &trans          &trans
-                                           &trans           &trans     &trans         &trans
+&none &caps_word    &kp LEFT_BRACKET  &kp SEMI   &kp PRINTSCREEN  &kp F12    &kp LG(COMMA)  &kp PAGE_UP     &kp UP_ARROW  &kp LG(PERIOD)  &trans &none
+&none &kp LEFT_GUI  &kp LEFT_ALT      &kp LCTRL  &kp LEFT_SHIFT   &kp ESC    &kp HOME       &kp LEFT_ARROW  &kp DOWN      &kp RIGHT       &kp END &none
+&none &trans        &trans            &trans     &trans           &trans     &trans         &kp PAGE_DOWN   &trans        &trans          &trans &none
+                                           &none &trans           &trans     &trans         &trans
             >;
         };
 
@@ -219,28 +219,28 @@
             //                    | GUI |     | SPC |   | ENT |     | ALT |
 
             bindings = <
-&kp EXCL       &kp AT     &kp HASH                        &kp DLLR          &kp PRCNT               &kp CARET              &kp AMPS           &kp BACKSLASH    &kp PIPE          &trans
-&kp SEMICOLON  &none      &hml LC(LEFT_BRACE) LEFT_BRACE  &kp LEFT_BRACKET  &kp LEFT_PARENTHESIS    &kp RIGHT_PARENTHESIS  &kp RIGHT_BRACKET  &kp RIGHT_BRACE  &kp EQUAL         &kp GRAVE
-&none          &kp TILDE  &kp DOUBLE_QUOTES               &kp COLON         &kp MINUS               &kp PLUS               &kp ASTERISK       &kp LESS_THAN    &kp GREATER_THAN  &kp SLASH
-                                                          &trans            &kp UNDERSCORE          &trans                 &trans
+&none &kp EXCL       &kp AT     &kp HASH                        &kp DLLR          &kp PRCNT               &kp CARET              &kp AMPS           &kp BACKSLASH    &kp PIPE          &trans &none
+&none &kp SEMICOLON  &none      &hml LC(LEFT_BRACE) LEFT_BRACE  &kp LEFT_BRACKET  &kp LEFT_PARENTHESIS    &kp RIGHT_PARENTHESIS  &kp RIGHT_BRACKET  &kp RIGHT_BRACE  &kp EQUAL         &kp GRAVE &none
+&none &none          &kp TILDE  &kp DOUBLE_QUOTES               &kp COLON         &kp MINUS               &kp PLUS               &kp ASTERISK       &kp LESS_THAN    &kp GREATER_THAN  &kp SLASH &none
+                                                          &none &trans            &kp UNDERSCORE          &trans                 &trans &none
             >;
         };
 
         num+ctrl {
             bindings = <
-&none      &none      &kp LC(F)  &kp LC(P)  &none        &none    &kp NUMBER_7  &kp NUMBER_8  &kp NUMBER_9  &kp LC(BACKSPACE)
-&kp LC(A)  &kp LC(R)  &kp LC(S)  &kp LC(T)  &none        &none    &kp NUMBER_4  &kp NUMBER_5  &kp NUMBER_6  &kp LEFT_GUI
-&kp LC(Z)  &kp LC(X)  &kp LC(C)  &kp LC(D)  &kp LC(V)    &kp DOT  &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp LC(PERIOD)
-                                 &BT        &none        &mo 4    &kp NUMBER_0
+&none &none      &none      &kp LC(F)  &kp LC(P)  &none        &none    &kp NUMBER_7  &kp NUMBER_8  &kp NUMBER_9  &kp LC(BACKSPACE) &none
+&none &kp LC(A)  &kp LC(R)  &kp LC(S)  &kp LC(T)  &none        &none    &kp NUMBER_4  &kp NUMBER_5  &kp NUMBER_6  &kp LEFT_GUI &none
+&none &kp LC(Z)  &kp LC(X)  &kp LC(C)  &kp LC(D)  &kp LC(V)    &kp DOT  &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp LC(PERIOD) &none
+                                 &none &BT        &none        &mo 4    &kp NUMBER_0 &none 
             >;
         };
 
         layer_3 {
             bindings = <
-&none  &none  &none  &none  &none             &ws1              &ws2            &ws3               &ws4             &ws5
-&none  &none  &none  &none  &bt BT_CLR_ALL    &kp K_PLAY_PAUSE  &kp K_PREVIOUS  &kp C_VOLUME_DOWN  &kp C_VOLUME_UP  &kp K_NEXT
-&none  &none  &none  &none  &sys_reset        &none             &none           &none              &none            &none
-                     &none  &none             &none             &none
+&none &none  &none  &none  &none  &none             &ws1              &ws2            &ws3               &ws4             &ws5 &none
+&none &none  &none  &none  &none  &bt BT_CLR_ALL    &kp K_PLAY_PAUSE  &kp K_PREVIOUS  &kp C_VOLUME_DOWN  &kp C_VOLUME_UP  &kp K_NEXT &none
+&none &none  &none  &none  &none  &sys_reset        &none             &none           &none              &none            &none &none
+                     &none &none  &none             &none             &none &none
             >;
         };
     };
